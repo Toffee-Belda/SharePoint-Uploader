@@ -1,5 +1,5 @@
 # SharePoint-Uploader
-A console app for uploading files to SharePoint site.
+A simple console app for uploading files to SharePoint site.
 
 Pre-requisites:
 
