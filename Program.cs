@@ -11,12 +11,6 @@ using System.Web;
 using System.IO;
 using System.Configuration;
 
-/*
- ********************************************************
- Add SharePoint library from (C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI)
-     
-     
-*/
 namespace SharePointUploader
 {
     class Program
@@ -27,14 +21,6 @@ namespace SharePointUploader
         static string username;
         static string password;
 
-        /*
-            Expected Parameters:
-            /u - upload file
-            /l - list folder
-
-            url - web full url
-            filename = UNC path for file upload
-        */
         static void Main(string[] args)
         {
             Console.Clear();
